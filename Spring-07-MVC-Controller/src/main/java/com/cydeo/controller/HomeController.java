@@ -8,6 +8,7 @@ public class HomeController {
 
     //MVC is architecture
     //It is Model View Controller
+    //Tymeleaf, template engine is dependency that allows you to easily get and display in the view variable data that the controller sends
 
     @RequestMapping("/home") //Use @RequestMapping annotation to associate the action with an HTTP request path
     //Mapping is happening through endpoint
